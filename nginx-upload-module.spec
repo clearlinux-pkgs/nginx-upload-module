@@ -4,7 +4,7 @@
 #
 Name     : nginx-upload-module
 Version  : 2.3.0
-Release  : 4
+Release  : 5
 URL      : https://github.com/fdintino/nginx-upload-module/archive/2.3.0.tar.gz
 Source0  : https://github.com/fdintino/nginx-upload-module/archive/2.3.0.tar.gz
 Summary  : No detailed summary available
@@ -28,6 +28,7 @@ lib components for the nginx-upload-module package.
 
 %prep
 %setup -q -n nginx-upload-module-2.3.0
+cd %{_builddir}/nginx-upload-module-2.3.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
