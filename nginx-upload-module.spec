@@ -4,7 +4,7 @@
 #
 Name     : nginx-upload-module
 Version  : 2.3.0
-Release  : 22
+Release  : 23
 URL      : https://github.com/fdintino/nginx-upload-module/archive/2.3.0.tar.gz
 Source0  : https://github.com/fdintino/nginx-upload-module/archive/2.3.0.tar.gz
 Summary  : No detailed summary available
